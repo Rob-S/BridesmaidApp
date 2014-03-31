@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD4D0B7818E7867000DBD546 /* UserTasksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4D0B7718E7867000DBD546 /* UserTasksTableViewController.m */; };
+		DD801D5418E7252D00D87586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD801D5318E7252D00D87586 /* Foundation.framework */; };
+		DD801D5618E7252D00D87586 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD801D5518E7252D00D87586 /* CoreGraphics.framework */; };
+		DD801D5818E7252D00D87586 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD801D5718E7252D00D87586 /* UIKit.framework */; };
+		DD801D5E18E7252D00D87586 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD801D5C18E7252D00D87586 /* InfoPlist.strings */; };
+		DD801D6018E7252D00D87586 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD801D5F18E7252D00D87586 /* main.m */; };
+		DD801D6418E7252D00D87586 /* BridesmaidsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD801D6318E7252D00D87586 /* BridesmaidsAppDelegate.m */; };
+		DD801D6D18E7252D00D87586 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD801D6C18E7252D00D87586 /* XCTest.framework */; };
+		DD801D6E18E7252D00D87586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD801D5318E7252D00D87586 /* Foundation.framework */; };
+		DD801D6F18E7252D00D87586 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD801D5718E7252D00D87586 /* UIKit.framework */; };
+		DD801D7718E7252D00D87586 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD801D7518E7252D00D87586 /* InfoPlist.strings */; };
+		DD801D7918E7252D00D87586 /* BridesmaidsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD801D7818E7252D00D87586 /* BridesmaidsAppTests.m */; };
+		DD801D8418E7302E00D87586 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD801D8318E7302E00D87586 /* MainViewController.m */; };
+		DD801D8718E7305E00D87586 /* MaidsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD801D8618E7305E00D87586 /* MaidsTableViewController.m */; };
+		DD801D8A18E7307100D87586 /* TasksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD801D8918E7307100D87586 /* TasksTableViewController.m */; };
+		DD801D8D18E7443D00D87586 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD801D8C18E7443D00D87586 /* BaseTableViewController.m */; };
+		DDA9B16018E89C2600906230 /* EditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA9B15F18E89C2600906230 /* EditTaskViewController.m */; };
+		DDA9B16218E8A0D300906230 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA9B16118E8A0D300906230 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD801D7018E7252D00D87586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD801D4818E7252D00D87586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD801D4F18E7252D00D87586;
+			remoteInfo = BridesmaidsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD4D0B7618E7867000DBD546 /* UserTasksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTasksTableViewController.h; sourceTree = "<group>"; };
+		DD4D0B7718E7867000DBD546 /* UserTasksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTasksTableViewController.m; sourceTree = "<group>"; };
+		DD801D5018E7252D00D87586 /* BridesmaidsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridesmaidsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD801D5318E7252D00D87586 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD801D5518E7252D00D87586 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD801D5718E7252D00D87586 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD801D5B18E7252D00D87586 /* BridesmaidsApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BridesmaidsApp-Info.plist"; sourceTree = "<group>"; };
+		DD801D5D18E7252D00D87586 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD801D5F18E7252D00D87586 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD801D6118E7252D00D87586 /* BridesmaidsApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BridesmaidsApp-Prefix.pch"; sourceTree = "<group>"; };
+		DD801D6218E7252D00D87586 /* BridesmaidsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridesmaidsAppDelegate.h; sourceTree = "<group>"; };
+		DD801D6318E7252D00D87586 /* BridesmaidsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridesmaidsAppDelegate.m; sourceTree = "<group>"; };
+		DD801D6B18E7252D00D87586 /* BridesmaidsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridesmaidsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD801D6C18E7252D00D87586 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DD801D7418E7252D00D87586 /* BridesmaidsAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BridesmaidsAppTests-Info.plist"; sourceTree = "<group>"; };
+		DD801D7618E7252D00D87586 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD801D7818E7252D00D87586 /* BridesmaidsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridesmaidsAppTests.m; sourceTree = "<group>"; };
+		DD801D8218E7302E00D87586 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DD801D8318E7302E00D87586 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DD801D8518E7305E00D87586 /* MaidsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaidsTableViewController.h; sourceTree = "<group>"; };
+		DD801D8618E7305E00D87586 /* MaidsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaidsTableViewController.m; sourceTree = "<group>"; };
+		DD801D8818E7307100D87586 /* TasksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksTableViewController.h; sourceTree = "<group>"; };
+		DD801D8918E7307100D87586 /* TasksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksTableViewController.m; sourceTree = "<group>"; };
+		DD801D8B18E7443D00D87586 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		DD801D8C18E7443D00D87586 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		DDA9B15E18E89C2600906230 /* EditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditTaskViewController.h; sourceTree = "<group>"; };
+		DDA9B15F18E89C2600906230 /* EditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditTaskViewController.m; sourceTree = "<group>"; };
+		DDA9B16118E8A0D300906230 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD801D4D18E7252D00D87586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD801D5618E7252D00D87586 /* CoreGraphics.framework in Frameworks */,
+				DD801D5818E7252D00D87586 /* UIKit.framework in Frameworks */,
+				DD801D5418E7252D00D87586 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD801D6818E7252D00D87586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD801D6D18E7252D00D87586 /* XCTest.framework in Frameworks */,
+				DD801D6F18E7252D00D87586 /* UIKit.framework in Frameworks */,
+				DD801D6E18E7252D00D87586 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD801D4718E7252D00D87586 = {
+			isa = PBXGroup;
+			children = (
+				DD801D5918E7252D00D87586 /* BridesmaidsApp */,
+				DD801D7218E7252D00D87586 /* BridesmaidsAppTests */,
+				DD801D5218E7252D00D87586 /* Frameworks */,
+				DD801D5118E7252D00D87586 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD801D5118E7252D00D87586 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD801D5018E7252D00D87586 /* BridesmaidsApp.app */,
+				DD801D6B18E7252D00D87586 /* BridesmaidsAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD801D5218E7252D00D87586 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD801D5318E7252D00D87586 /* Foundation.framework */,
+				DD801D5518E7252D00D87586 /* CoreGraphics.framework */,
+				DD801D5718E7252D00D87586 /* UIKit.framework */,
+				DD801D6C18E7252D00D87586 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD801D5918E7252D00D87586 /* BridesmaidsApp */ = {
+			isa = PBXGroup;
+			children = (
+				DD801D6218E7252D00D87586 /* BridesmaidsAppDelegate.h */,
+				DD801D6318E7252D00D87586 /* BridesmaidsAppDelegate.m */,
+				DDA9B16118E8A0D300906230 /* Images.xcassets */,
+				DD801D5A18E7252D00D87586 /* Supporting Files */,
+				DD801D8218E7302E00D87586 /* MainViewController.h */,
+				DD801D8318E7302E00D87586 /* MainViewController.m */,
+				DD801D8518E7305E00D87586 /* MaidsTableViewController.h */,
+				DD801D8618E7305E00D87586 /* MaidsTableViewController.m */,
+				DD801D8818E7307100D87586 /* TasksTableViewController.h */,
+				DD801D8918E7307100D87586 /* TasksTableViewController.m */,
+				DD801D8B18E7443D00D87586 /* BaseTableViewController.h */,
+				DD801D8C18E7443D00D87586 /* BaseTableViewController.m */,
+				DD4D0B7618E7867000DBD546 /* UserTasksTableViewController.h */,
+				DD4D0B7718E7867000DBD546 /* UserTasksTableViewController.m */,
+				DDA9B15E18E89C2600906230 /* EditTaskViewController.h */,
+				DDA9B15F18E89C2600906230 /* EditTaskViewController.m */,
+			);
+			path = BridesmaidsApp;
+			sourceTree = "<group>";
+		};
+		DD801D5A18E7252D00D87586 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD801D5B18E7252D00D87586 /* BridesmaidsApp-Info.plist */,
+				DD801D5C18E7252D00D87586 /* InfoPlist.strings */,
+				DD801D5F18E7252D00D87586 /* main.m */,
+				DD801D6118E7252D00D87586 /* BridesmaidsApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD801D7218E7252D00D87586 /* BridesmaidsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD801D7818E7252D00D87586 /* BridesmaidsAppTests.m */,
+				DD801D7318E7252D00D87586 /* Supporting Files */,
+			);
+			path = BridesmaidsAppTests;
+			sourceTree = "<group>";
+		};
+		DD801D7318E7252D00D87586 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD801D7418E7252D00D87586 /* BridesmaidsAppTests-Info.plist */,
+				DD801D7518E7252D00D87586 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD801D4F18E7252D00D87586 /* BridesmaidsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD801D7C18E7252E00D87586 /* Build configuration list for PBXNativeTarget "BridesmaidsApp" */;
+			buildPhases = (
+				DD801D4C18E7252D00D87586 /* Sources */,
+				DD801D4D18E7252D00D87586 /* Frameworks */,
+				DD801D4E18E7252D00D87586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BridesmaidsApp;
+			productName = BridesmaidsApp;
+			productReference = DD801D5018E7252D00D87586 /* BridesmaidsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD801D6A18E7252D00D87586 /* BridesmaidsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD801D7F18E7252E00D87586 /* Build configuration list for PBXNativeTarget "BridesmaidsAppTests" */;
+			buildPhases = (
+				DD801D6718E7252D00D87586 /* Sources */,
+				DD801D6818E7252D00D87586 /* Frameworks */,
+				DD801D6918E7252D00D87586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD801D7118E7252D00D87586 /* PBXTargetDependency */,
+			);
+			name = BridesmaidsAppTests;
+			productName = BridesmaidsAppTests;
+			productReference = DD801D6B18E7252D00D87586 /* BridesmaidsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD801D4818E7252D00D87586 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BridesmaidsApp;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Bridesmaids App";
+				TargetAttributes = {
+					DD801D6A18E7252D00D87586 = {
+						TestTargetID = DD801D4F18E7252D00D87586;
+					};
+				};
+			};
+			buildConfigurationList = DD801D4B18E7252D00D87586 /* Build configuration list for PBXProject "BridesmaidsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD801D4718E7252D00D87586;
+			productRefGroup = DD801D5118E7252D00D87586 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD801D4F18E7252D00D87586 /* BridesmaidsApp */,
+				DD801D6A18E7252D00D87586 /* BridesmaidsAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD801D4E18E7252D00D87586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD801D5E18E7252D00D87586 /* InfoPlist.strings in Resources */,
+				DDA9B16218E8A0D300906230 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD801D6918E7252D00D87586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD801D7718E7252D00D87586 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD801D4C18E7252D00D87586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD801D6418E7252D00D87586 /* BridesmaidsAppDelegate.m in Sources */,
+				DD801D8A18E7307100D87586 /* TasksTableViewController.m in Sources */,
+				DD801D8418E7302E00D87586 /* MainViewController.m in Sources */,
+				DDA9B16018E89C2600906230 /* EditTaskViewController.m in Sources */,
+				DD801D8718E7305E00D87586 /* MaidsTableViewController.m in Sources */,
+				DD801D8D18E7443D00D87586 /* BaseTableViewController.m in Sources */,
+				DD801D6018E7252D00D87586 /* main.m in Sources */,
+				DD4D0B7818E7867000DBD546 /* UserTasksTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD801D6718E7252D00D87586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD801D7918E7252D00D87586 /* BridesmaidsAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD801D7118E7252D00D87586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD801D4F18E7252D00D87586 /* BridesmaidsApp */;
+			targetProxy = DD801D7018E7252D00D87586 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD801D5C18E7252D00D87586 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD801D5D18E7252D00D87586 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD801D7518E7252D00D87586 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD801D7618E7252D00D87586 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD801D7A18E7252E00D87586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD801D7B18E7252E00D87586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD801D7D18E7252E00D87586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BridesmaidsApp/BridesmaidsApp-Prefix.pch";
+				INFOPLIST_FILE = "BridesmaidsApp/BridesmaidsApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD801D7E18E7252E00D87586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BridesmaidsApp/BridesmaidsApp-Prefix.pch";
+				INFOPLIST_FILE = "BridesmaidsApp/BridesmaidsApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DD801D8018E7252E00D87586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BridesmaidsApp.app/BridesmaidsApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BridesmaidsApp/BridesmaidsApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BridesmaidsAppTests/BridesmaidsAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DD801D8118E7252E00D87586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BridesmaidsApp.app/BridesmaidsApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BridesmaidsApp/BridesmaidsApp-Prefix.pch";
+				INFOPLIST_FILE = "BridesmaidsAppTests/BridesmaidsAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD801D4B18E7252D00D87586 /* Build configuration list for PBXProject "BridesmaidsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD801D7A18E7252E00D87586 /* Debug */,
+				DD801D7B18E7252E00D87586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD801D7C18E7252E00D87586 /* Build configuration list for PBXNativeTarget "BridesmaidsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD801D7D18E7252E00D87586 /* Debug */,
+				DD801D7E18E7252E00D87586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD801D7F18E7252E00D87586 /* Build configuration list for PBXNativeTarget "BridesmaidsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD801D8018E7252E00D87586 /* Debug */,
+				DD801D8118E7252E00D87586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD801D4818E7252D00D87586 /* Project object */;
+}
