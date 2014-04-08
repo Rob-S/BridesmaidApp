@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_METHOD} ^GET$
+RewriteCond %{HTTP_HOST} ^[^\.]+\.[^\.]+$
+RewriteRule .? http://www.%{HTTP_HOST}%{REQUEST_URI} [R=permanent,L]
+
